@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="constyle.css">
 </head>
 <body>
 
@@ -29,27 +30,31 @@
     </div>
   </header>
   <main>
+    <section class="contact-container">
+
     <h2>Contacte Nous</h2>
-    <form>
-      <div>
+    <form class="form-info">
+      <div class="info-person">
       <label for="txt">Nom et Prénom</label><br>
-      <input id="txt" type="text" placeholder="Entre votre nom et prénom">
+      <input id="txt" type="text" placeholder="Entre votre nom et prénom" required>
       </div>
-      <div>
+      <div class="email">
       <label for="email">Email</label><br>
-      <input id="email" type="email" placeholder="Entre votre Email">
+      <input id="email" type="email" placeholder="Entre votre Email" required>
       </div>
-      <div>
-      <label for="msg">Message</label><br>
-      <input id="msg" type="text" placeholder="votre message">
+      <div class="Message">
+      <label for="Message">Message</label><br>
+      <textarea id="Message"      name="Message" placeholder="Écrivez votre message ici..." required></textarea>   
       </div>
+      <div class="submit">
       <input type="submit" value="Cliquez pour envoyer">
+    </div>
     </form>
-
-
-
+  </section>
 
   </main>
+
+  
    <footer class="pied-de-page">
     <div class="conteneur">
       <div class="pied-haut">
