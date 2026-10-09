@@ -1,5 +1,45 @@
 .contact-container{
-    border: solid 5px;
+    border: solid 2px;
+    background-color: rgb(133, 27, 27);
+    height: 500px;
+    margin-left: 100px ;
+    margin-right: 100px;
+    
     
     
 }
+.contact{
+    color:black;
+    margin-left: 350px;
+    
+}
+.form-info{
+    color: black;
+    margin-left: 350px;
+    
+}
+#Message{
+    height: 300px;
+    width: 600px;
+}
+.elan-logo{
+    margin-top: 15px;
+    width: 180px;
+    height: 110px;
+}
+#txt{
+    width: 600px;;
+}
+#email{
+    width: 600px;
+}
+input[type="submit"]{
+    background-color: rgb(46, 105, 224);
+    border: 100%;
+    color:black;
+    width: 200px;
+}
+textarea{                   
+    resize: none;
+}
+

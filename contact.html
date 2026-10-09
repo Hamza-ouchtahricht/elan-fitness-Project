@@ -18,6 +18,7 @@
   <header class="en-tete">
     <div class="conteneur en-tete-contenu">
       <a href="#accueil" class="logo">Élan Fitness</a>
+      <img src="img/elan-logo.png" class="elan-logo" width="180" height="110">
 
       <nav aria-label="Navigation principale">
         <ul class="menu">
@@ -32,22 +33,22 @@
   <main>
     <section class="contact-container">
 
-    <h2>Contacte Nous</h2>
+    <h2 class="contact">Contacte Nous</h2>
     <form class="form-info">
       <div class="info-person">
-      <label for="txt">Nom et Prénom</label><br>
+      <label for="txt"><strong>Nom et Prénom</strong></label><br>
       <input id="txt" type="text" placeholder="Entre votre nom et prénom" required>
       </div>
       <div class="email">
-      <label for="email">Email</label><br>
+      <label for="email"><strong>Email</strong></label><br>
       <input id="email" type="email" placeholder="Entre votre Email" required>
       </div>
       <div class="Message">
-      <label for="Message">Message</label><br>
-      <textarea id="Message"      name="Message" placeholder="Écrivez votre message ici..." required></textarea>   
+      <label for="Message"><strong>Message</strong></label><br>
+      <textarea id="Message" name="Message" placeholder="Écrivez votre message ici..." required></textarea>   
       </div>
       <div class="submit">
-      <input type="submit" value="Cliquez pour envoyer">
+      <input id="bouton" type="submit" value="Cliquez pour envoyer">
     </div>
     </form>
   </section>
